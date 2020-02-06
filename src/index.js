@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Features from './Features/Features';
 
 const FEATURES = {
   Processor: [
@@ -14,7 +15,7 @@ const FEATURES = {
       cost: 1200
     }
   ],
-  "Operating System": [
+  'Operating System': [
     {
       name: 'Ubuntu Linux 16.04',
       cost: 200
@@ -24,7 +25,7 @@ const FEATURES = {
       cost: 300
     }
   ],
-  "Video Card": [
+  'Video Card': [
     {
       name: 'Toyota Corolla 1.5v',
       cost: 1150.98
@@ -42,8 +43,8 @@ const FEATURES = {
     {
       name: '15.3" HGTV (3840 x 2160) Home makeover edition',
       cost: 1400
-    },
+    }
   ]
 };
 
-ReactDOM.render(<App features={FEATURES}/>, document.getElementById('root'));
+ReactDOM.render(<App features={FEATURES} />, document.getElementById('root'));
